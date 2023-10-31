@@ -14,7 +14,7 @@ var createCounter = function(n) {
 // };
 
 
-
+// Task 2
 async function sleep(millis) {
     let promise = new Promise((resolve, reject) => {
         setTimeout(() => resolve(millis), millis)
